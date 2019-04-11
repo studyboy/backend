@@ -18,5 +18,12 @@
         "psr-4": {
             "Bee\\Admin\\" : "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+             "providers": [
+                "Bee\\Admin\\BeeServiceProvider.php"
+             ]
+        }
     }
 }
