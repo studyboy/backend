@@ -1,5 +1,15 @@
 <?php
-
+/**
+|----------------------------------------------
+| Bee admin 
+|----------------------------------------------
+| @Author: damicook
+| @E-mail: johngao@qq.com
+| @Date:   2019-04-11 23:59:21
+| @Last Modified by:   gsw
+| @Last Modified time: 2019-04-12 01:18:31
+|----------------------------------------------
+ */
 namespace Bee\Admin;
 
 use Illuminate\Support\ServiceProvider;
@@ -8,7 +18,7 @@ use Illuminate\Support\Facades\Route;
 class BeeServiceProvider extends ServiceProvider
 {
 
-    protected $namespace ="Bee\\Backend\\Http\\Controllers";
+    protected $namespace ="Bee\\Admin\\Http\\Controllers";
 
     protected $commands =[
     ];
@@ -19,7 +29,7 @@ class BeeServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        //替换laraveladmin的默认模版
+        //替换laravel admin的默认模版
         app('view')->prependNamespace('admin', __DIR__.'/../resources/views');
 
         //将参数配置替换默认配置文件
