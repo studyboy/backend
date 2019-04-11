@@ -10,11 +10,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7.1.0",
+        "encore/laravel-admin": "1.6.11"
+    },
     "autoload": {
         "psr-4": {
-            "Bee\\Backend\\" : "src/",
-            "Bee\\admin\\": "packages/bee/backend/src/"
+            "Bee\\Admin\\" : "src/"
         }
     }
 }
