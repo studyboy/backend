@@ -1,0 +1,20 @@
+{
+    "name": "bee/backend",
+    "description": "Enomic admin base on laravel admin ext.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "studyboy",
+            "email": "johngao@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Bee\\Backend\\" : "src/",
+            "Bee\\admin\\": "packages/bee/backend/src/"
+        }
+    }
+}
