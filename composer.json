@@ -1,5 +1,5 @@
 {
-    "name": "bee/backend",
+    "name": "bees/backend",
     "description": "Enomic admin base on laravel admin ext.",
     "type": "library",
     "license": "MIT",
