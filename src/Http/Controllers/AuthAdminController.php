@@ -7,16 +7,16 @@
 | @E-mail: johngao@qq.com
 | @Date:   2019-04-12 01:23:55
 | @Last Modified by:   gsw
-| @Last Modified time: 2019-04-12 01:33:12
+| @Last Modified time: 2019-04-12 01:51:00
 |----------------------------------------------
  */
 namespace Bee\Admin\Http\Controllers;
 
-use Encore\Admin\Http\Controllers\AuthController as AuthAdminController;
+use Encore\Admin\Http\Controllers\AuthController;
 
 
 
-class AuthController extends AuthAdminController {
+class AuthAdminController extends AuthController {
 
 
     public function getLogin(){

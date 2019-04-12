@@ -22,7 +22,7 @@
     "extra": {
         "laravel": {
              "providers": [
-                "Bee\\Admin\\BeeServiceProvider.php"
+                "Bee\\Admin\\BeeServiceProvider"
              ]
         }
     }
